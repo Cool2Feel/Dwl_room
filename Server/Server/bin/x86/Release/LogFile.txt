@@ -1,0 +1,223 @@
+Log Entry : 
+时间：15:19:56 2018年6月29日 
+
+异常信息：语法错误 (操作符丢失) 在查询表达式 '* FROMhistory_table_0' 中。
+异常对象：Microsoft JET Database Engine
+调用堆栈：
+在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Server.AccessFunction.GetHistoryTables(String tablename) 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\AccessFunction.cs:行号 47
+   在 Server.ServerForm.timer_auto_Tick(Object sender, EventArgs e) 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 1540
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：Void ExecuteCommandTextErrorHandling(System.Data.OleDb.OleDbHResult)
+------------------------------------
+
+Log Entry : 
+时间：15:23:53 2018年6月29日 
+
+异常信息：语法错误 (操作符丢失) 在查询表达式 '* FROMhistory_table_0' 中。
+异常对象：Microsoft JET Database Engine
+调用堆栈：
+在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Server.AccessFunction.GetHistoryTables(String tablename) 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\AccessFunction.cs:行号 47
+   在 Server.ServerForm.timer_auto_Tick(Object sender, EventArgs e) 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 1540
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：Void ExecuteCommandTextErrorHandling(System.Data.OleDb.OleDbHResult)
+------------------------------------
+
+Log Entry : 
+时间：15:25:21 2018年6月29日 
+
+异常信息：语法错误 (操作符丢失) 在查询表达式 '* FROMhistory_table_0' 中。
+异常对象：Microsoft JET Database Engine
+调用堆栈：
+在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   在 System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Server.AccessFunction.GetHistoryTables(String tablename) 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\AccessFunction.cs:行号 47
+   在 Server.ServerForm.timer_auto_Tick(Object sender, EventArgs e) 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 1541
+   在 System.Windows.Forms.Timer.OnTick(EventArgs e)
+   在 System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\会议室管理系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：Void ExecuteCommandTextErrorHandling(System.Data.OleDb.OleDbHResult)
+------------------------------------
+
+Log Entry : 
+时间：15:40:55 2018年7月20日 
+
+异常信息：未将对象引用设置到对象的实例。
+异常对象：Server
+调用堆栈：
+在 Server.ServerForm.btnStop_Click(Object sender, EventArgs e) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 1499
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：Void btnStop_Click(System.Object, System.EventArgs)
+------------------------------------
+
+Log Entry : 
+时间：11:22:29 2018年7月27日 
+
+异常信息：未将对象引用设置到对象的实例。
+异常对象：Server
+调用堆栈：
+在 Server.ServerForm.GetConnectionStringsConfig(String connectionName) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 309
+   在 Server.ServerForm..ctor() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 99
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：System.String GetConnectionStringsConfig(System.String)
+------------------------------------
+
+Log Entry : 
+时间：11:24:29 2018年7月27日 
+
+异常信息：未将对象引用设置到对象的实例。
+异常对象：Server
+调用堆栈：
+在 Server.ServerForm.GetConnectionStringsConfig(String connectionName) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 309
+   在 Server.ServerForm..ctor() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 99
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：System.String GetConnectionStringsConfig(System.String)
+------------------------------------
+
+Log Entry : 
+时间：11:37:07 2018年7月27日 
+
+异常信息：在其上下文中，该请求的地址无效。
+异常对象：System
+调用堆栈：
+在 System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   在 Server.IOCPServer.Start(ServerForm f) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\IOCPServer\IOCPServer.cs:行号 199
+   在 Server.ServerForm.btnStart_Click(Object sender, EventArgs e) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 136
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：Void DoBind(System.Net.EndPoint, System.Net.SocketAddress)
+------------------------------------
+
+Log Entry : 
+时间：11:43:28 2018年7月27日 
+
+异常信息：未将对象引用设置到对象的实例。
+异常对象：Server
+调用堆栈：
+在 Server.ServerForm.UpdateConnectionStringsConfig(String newName, String newConString) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 342
+   在 Server.ServerForm.btnStart_Click(Object sender, EventArgs e) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 138
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：Void UpdateConnectionStringsConfig(System.String, System.String)
+------------------------------------
+
+Log Entry : 
+时间：11:44:36 2018年7月27日 
+
+异常信息：未将对象引用设置到对象的实例。
+异常对象：Server
+调用堆栈：
+在 Server.ServerForm.UpdateConnectionStringsConfig(String newName, String newConString) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 342
+   在 Server.ServerForm.btnStart_Click(Object sender, EventArgs e) 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\ServerForm.cs:行号 138
+   在 System.Windows.Forms.Control.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnClick(EventArgs e)
+   在 System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   在 System.Windows.Forms.Button.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   在 System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   在 System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(Int32 dwComponentID, Int32 reason, Int32 pvLoopData)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.Run(Form mainForm)
+   在 Server.Program.Main() 位置 F:\1000_Application_Softwarewc\会议室系统\1000_Conference_System_C#\Server\Server\Program.cs:行号 27
+触发方法：Void UpdateConnectionStringsConfig(System.String, System.String)
+------------------------------------
+
