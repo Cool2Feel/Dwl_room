@@ -132,6 +132,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ServerForm";
+            this.ShowInTaskbar = false;
             this.Text = "会议系统服务器";
             this.Load += new System.EventHandler(this.ServerForm_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ServerForm_FormClosing);

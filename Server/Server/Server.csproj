@@ -12,15 +12,17 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <ApplicationIcon>sever.ico</ApplicationIcon>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
     <TargetZone>LocalIntranet</TargetZone>
     <GenerateManifests>true</GenerateManifests>
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
-    <PublishUrl>publish\</PublishUrl>
+    <ManifestCertificateThumbprint>D0BFFA614D3A1E58EF0965304DEAEDCCB8D97EB2</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Server_TemporaryKey.pfx</ManifestKeyFile>
+    <PublishUrl>D:\IIS\Update\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
+    <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -28,7 +30,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <InstallUrl>http://192.168.3.69:8055/</InstallUrl>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -139,6 +142,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Properties\app.manifest" />
+    <None Include="Server_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">

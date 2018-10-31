@@ -1349,7 +1349,7 @@ namespace Server
                                     }
                                     break;
                                 case "105":
-                                    Console.WriteLine("Logout");
+                                    //Console.WriteLine("Logout");
                                     break;
                                 case "107":
                                     //Console.WriteLine("do something");
@@ -2178,6 +2178,7 @@ namespace Server
             rk2.SetValue("JcShutdown", path);
             rk2.Close();
             rk.Close();
+            this.WindowState = FormWindowState.Minimized;
             //TerminalServer.Start(this);
             // 创建监听套接字
             /*

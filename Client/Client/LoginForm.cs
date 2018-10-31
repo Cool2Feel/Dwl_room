@@ -1521,6 +1521,8 @@ namespace Client
             this.groupBox10.Text = settingFile.ReadString("FORM1", "NAME9", "大客户六部");
             this.groupBox11.Text = settingFile.ReadString("FORM1", "NAME10", "业务部");
             this.groupBox12.Text = settingFile.ReadString("FORM1", "NAME11", "电气部");
+            this.groupBox49.Text = settingFile.ReadString("FORM1", "NAME12", "财务部");
+            this.groupBox54.Text = settingFile.ReadString("FORM1", "NAME13", "研发会议室二");
 
             this.groupBox22.Text = settingFile.ReadString("FORM2", "NAME1", "1号");
             this.groupBox23.Text = settingFile.ReadString("FORM2", "NAME2", "2号");
@@ -1819,13 +1821,19 @@ namespace Client
                     }
                     else if (Control == groupBox2)
                     {
-                        w1 = 377;
+                        w1 = 554;
                         Control.Location = new Point(w1 + ws / 2, Control.Location.Y);
                         //backw = ws / 4;
                     }
                     else if (Control == groupBox4)
                     {
-                        w1 = 734;
+                        w1 = 821;
+                        Control.Location = new Point(w1 + ws / 2, Control.Location.Y);
+                        //backw = ws / 4;
+                    }
+                    else if (Control == groupBox54)
+                    {
+                        w1 = 287;
                         Control.Location = new Point(w1 + ws / 2, Control.Location.Y);
                         //backw = ws / 4;
                     }
@@ -1841,9 +1849,9 @@ namespace Client
                         Control.Location = new Point(w1 + ws / 2, Control.Location.Y);
                         //backw = ws / 4;
                     }
-                    else if (Control == groupBox8)
+                    else if (Control == groupBox8 || Control == groupBox49)
                     {
-                        w1 = 671;
+                        w1 = 674;
                         Control.Location = new Point(w1 + ws / 2, Control.Location.Y);
                         //backw = ws / 4;
                     }
@@ -1853,9 +1861,12 @@ namespace Client
                         Control.Location = new Point(w1 + ws / 2, Control.Location.Y);
                         //backw = ws / 4;
                     }
-                    if (Control is Label)
+                    else if (Control is Label)
                     {
-                        w1 = 20;
+                        if (Control.Name.Equals(label70.Name))
+                            w1 = 741;
+                        else
+                            w1 = 20;
                         Control.Location = new Point(w1 + ws / 2, Control.Location.Y);
                     }
                 }

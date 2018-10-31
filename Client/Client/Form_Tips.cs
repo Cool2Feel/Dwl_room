@@ -32,7 +32,7 @@ namespace Client
         {
             string me = mess.Substring(7, mess.Length - 7);
             string[] smess = me.Split(',');
-            Console.WriteLine(smess[0] + "==" + smess[1]);
+            //Console.WriteLine(smess[0] + "==" + smess[1]);
             switch (smess[0])
             { 
                 case "107":

@@ -4,7 +4,7 @@
   <description asmv2:iconFile="sever.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Server" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="Server" version="1.0.2.0" language="neutral" processorArchitecture="x86" />
     <commandLine file="Server.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -48,11 +48,6 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="System.Data.Entity" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
@@ -70,23 +65,23 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Server.exe" size="101376">
-      <assemblyIdentity name="Server" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="Server" version="1.0.2.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>QaZIAJGzHOlL8SkXHAZtnVNqqvw=</dsig:DigestValue>
+        <dsig:DigestValue>HYrohL3BBzpAlJGlt0C2fT99MSk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Server.exe.config" size="217">
+  <file name="Server.exe.config" size="1050">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>W1c72eEJj5cpiFPwWuFeSEdlM3o=</dsig:DigestValue>
+      <dsig:DigestValue>mZiwEaQ0mf9IbDBZ6YJsr47hyO0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="sever.ico" size="14942">

@@ -464,7 +464,7 @@ namespace Server
                         }
                         //Console.WriteLine(_serverSock.LocalEndPoint.ToString());
                         string info = Encoding.Default.GetString(data);
-                        Log4Debug(String.Format("收到 {0} 数据为 {1}", token.Remote.ToString(), info));
+                        //Log4Debug(String.Format("收到 {0} 数据为 {1}", token.Remote.ToString(), info));
                         //TODO 处理数据
                         sf.ReceiveData(info, token.Socket);
                         

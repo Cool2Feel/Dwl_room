@@ -4,14 +4,14 @@
   <description asmv2:publisher="Microsoft" asmv2:product="Server" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Server.exe.manifest" size="5385">
+    <dependentAssembly dependencyType="install" codebase="Server.exe.manifest" size="5091">
       <assemblyIdentity name="Server.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>zLieyIu4UKbQK/5UPSqiSC4ikcs=</dsig:DigestValue>
+        <dsig:DigestValue>wVtere8SUEKkQJ7nmChhSzuj3Zc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
